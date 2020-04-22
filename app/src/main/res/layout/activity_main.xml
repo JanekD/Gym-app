@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#795548">
+
+
+    <!--ekran do klikania i wybierania nowego okna, które przekierowywuje-->
+    <!--użytkownika do stworzenia planu-->
+
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, I am a TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button1_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/button2_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button3_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button4_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button5_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button6_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button7_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="CREATE A WORKOUT"
+        android:background="@drawable/buttons_workout"
+        android:layout_weight="1"/>
+
+    <TextView android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, I am a TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
+
+
+
