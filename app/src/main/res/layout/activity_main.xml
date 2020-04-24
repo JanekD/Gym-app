@@ -3,19 +3,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#795548">
+    android:background="@drawable/background_app">
 
 
     <!--ekran do klikania i wybierania nowego okna, które przekierowywuje-->
     <!--użytkownika do stworzenia planu-->
 
-    <TextView android:id="@+id/text"
-        android:layout_width="wrap_content"
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello, I am a TextView"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFC107"
+        android:text="menu"
+        android:visibility="visible" />
+
 
     <Button
         android:id="@+id/button1_workout"
@@ -23,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"
         />
 
@@ -33,7 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"/>
 
     <Button
@@ -42,7 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"/>
 
     <Button
@@ -51,7 +66,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"/>
 
     <Button
@@ -60,7 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"/>
 
     <Button
@@ -69,7 +86,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"/>
 
     <Button
@@ -78,16 +96,18 @@
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="CREATE A WORKOUT"
-        android:background="@drawable/buttons_workout"
+        android:textColor="#CFB53B"
+        android:background="@drawable/buttons_add_excersise"
         android:layout_weight="1"/>
 
     <TextView android:id="@+id/text_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello, I am a TextView"
+        android:text="sponsorzy XDXDX"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:layout_weight="1"/>
+
 
 
 
